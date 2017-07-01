@@ -134,6 +134,9 @@ body {
 	}
 
 /*PRODUCT PAGES*/
+	.header {
+		text-decoration: underline;
+	}
 	.prod-img img {
 		padding: 15px 0px;
 		max-width: 100%; 
