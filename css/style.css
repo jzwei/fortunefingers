@@ -1,0 +1,149 @@
+body {
+	background-color: #ffd8f6;
+	color: black;
+}
+
+
+/*NAVBAR STUFF*/
+	.nav-transparent { /*making the full navbar transparent*/
+		background-color: rgba(255, 216, 246, 0.9);
+		border-color: transparent;
+	}
+
+	.icon-bar {
+		background-color: grey;
+	}
+	.navbar-toggle {
+		background-color: white;
+	}
+
+	ul .nav-list {
+		list-style: none;
+	}
+	li.nav-list {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: right;
+	}
+
+	.navbar-brand {
+	    margin: 0;
+	    padding: 0;
+	    margin-top: 0%;
+	}
+
+	.navbar-brand img {
+	    max-height: 90%;
+	    margin-top: 5px;
+	}
+
+	.navbar-link {
+		font-size: 25px;
+		margin: 10px 20px;
+		color: white;
+	}
+	.nav-top-pad {
+		padding-top: 20px;
+	}
+
+/*MAIN CONTAINER*/
+	#background-wrapper{ /*RESPONSIVE JUMBOTRON BACKGROUND IMAGE*/
+			background-image: url('images/glass.jpg');
+			background-size: cover;
+			height: 300px;
+			margin-bottom: 0px;
+			margin-top: 15px;
+		}
+
+	.center-title { /*jumbotron text center alignment*/
+			text-align: center;
+			width: 55%;
+		}
+	.fingers_logo {
+
+		}
+
+	#ff_title { /*responsive heading*/
+		max-width: 100%;
+	}
+
+/*MAIN CONTENT*/
+
+	.center{
+		text-align: center;
+	}
+
+	.home-link {
+		font-size: 50px;
+		margin-top: 10px;
+	}
+
+	.index-img {
+		max-width: 100%;
+		transition: .9s;
+		margin: 0 auto;
+	}
+
+/*	.img-transition {
+    background: url(images/index/glass.jpg);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+	}
+	.img-transition:hover {
+	    background: url(images/index/glass2.jpg);
+	    -webkit-transition: all 1s ease-in-out;
+	    -moz-transition: all 1s ease-in-out;
+	    -o-transition: all 1s ease-in-out;
+	    transition: all 1s ease-in-out;
+	}*/
+
+/*IMAGE HOVER*/
+	#suncatchers {
+		
+	}
+	
+	#air-planters {
+		
+	}
+
+	#mobiles {
+		
+	}
+
+/*LINK STYLING*/
+	a:link {
+		color: black;
+	}
+	a:visited {
+		color: black;
+	}
+	a:hover {
+		font-style: italic;
+		text-decoration: none;
+		color: black;
+	}
+	a:active {
+		text-decoration: none;
+	}
+
+/*FOOTER*/
+	#about {
+		font-size: 40px;
+	}
+
+/*PRODUCT PAGES*/
+	.prod-img img {
+		padding: 15px 0px;
+		max-width: 100%; 
+	}
+
+/*SMALLER SCREENS*/
+
+@media (max-width: 768px) { /*sizing the mobile logo for tablet*/
+		.navbar-collapse-right {
+		/*float: right;*/
+		}
+	}
+
